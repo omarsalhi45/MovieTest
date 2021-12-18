@@ -1,1 +1,7 @@
 export const GET_MOVIES = 'GET_MOVIES'
+export const LIKE = 'LIKE'
+export const DISLIKE = 'DISLIKE'
+export const UNDISLIKE = 'UNDISLIKE'
+export const UNLIKE = 'UNLIKE'
+export const DELETE = 'DELETE'
+export const SEARCH = 'SEARCH'

@@ -11,10 +11,10 @@ import reducers from './reducers'
 import App from './App'
 import './index.css'
 
-// const store = createStore(reducers, composeWithDevTools(applyMiddleware(thunk)))
+const store = createStore(reducers, composeWithDevTools(applyMiddleware(thunk)))
 
 ReactDOM.render(
-   <React.StrictMode>
+   <Provider store={store}>
       <App />
-    </React.StrictMode>,
+    </Provider>,
     document.getElementById('root'));
