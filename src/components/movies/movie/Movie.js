@@ -65,7 +65,7 @@ const Movie = ({ movie }) => {
 
                 </Button>
                 <Button size="small" color="secondary" onClick={handleSupress}>
-                    <DeleteIcon fontSize="small" /> &nbsp; Delete
+                    <DeleteIcon fontSize="small" /> &nbsp;  
                 </Button>
             </CardActions>
         </Card>
